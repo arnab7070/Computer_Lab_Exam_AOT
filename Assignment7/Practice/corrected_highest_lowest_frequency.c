@@ -70,11 +70,11 @@ int main()
             {
                 str[j] = str[j + 1];
             }
-            length--;
-            i--; // for cross checking of #
+            length--; // decreasing the length of string
+            i--; // for cross checking of string
         }
     }
-    
+
     printf("Minimum occuring characters: ");
     int i = 0;
     while (min_count != 0)
