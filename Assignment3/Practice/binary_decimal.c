@@ -25,7 +25,7 @@ void decimalToBinary(int n){
         pos++;
     }
     
-    for(int i = 0; i < pos; i++){
+    for(int i = pos-1; i >= 0; i--){
         printf("%d",binary[i]);
     }
     
