@@ -12,7 +12,7 @@ int main()
     printf("%d\n",a*b);
     //division
     printf("%.2f\n",(float)a/b); //%.2f for upto 2 decimal numbers
-    //modulo
+    //modulo operator
     printf("%d\n",a%b);
 
     return 0;
