@@ -6,10 +6,6 @@ int main()
     switch (a>b)
     {
     case 1:
-        if(a==b){
-            printf("Both are same.\n");
-            return 0;
-        }
         printf("Max is = %d\n",a);
         break;
     case 0:
