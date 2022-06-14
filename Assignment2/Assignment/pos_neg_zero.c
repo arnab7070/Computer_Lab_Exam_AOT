@@ -16,7 +16,7 @@ int main()
             break;
         
         case 0:
-            printf("%d is equal to 0.\n",n);
+            printf("%d is zero.\n",n);
         }
     }
     return 0;
