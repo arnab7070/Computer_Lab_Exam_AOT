@@ -21,8 +21,8 @@ int main()
         printf("Roots are imaginary...\n");
         float real = (-b/(2*a));
         float imaginary = (sqrt(-D)/(2*a));
-        printf("Root 1 = %f + %f*i\n",real,imaginary);
-        printf("Root 1 = %f - %f*i\n",real,imaginary);
+        printf("Root 1 = %f + %fi\n",real,imaginary);
+        printf("Root 2 = %f - %fi\n",real,imaginary);
     }
     return 0;
 }
